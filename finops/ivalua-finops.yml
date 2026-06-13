@@ -1,0 +1,92 @@
+name: Ivalua FinOps Framework
+description: >-
+  FinOps cost management and optimization guidance for Ivalua procurement
+  platform API usage and enterprise subscription spend. Ivalua is delivered
+  as a fully managed enterprise SaaS with annual subscription pricing
+  negotiated per contract. Cost visibility and optimization centers on
+  subscription right-sizing, module selection, integration utilization,
+  and procurement ROI measurement aligned with the FinOps Framework
+  FOCUS (FinOps Open Cost and Usage Specification) principles.
+specificationVersion: '1.0'
+url: https://www.ivalua.com/technology/procurement-platform/
+focus:
+  ChargeType: Usage
+  ServiceCategory: Procurement Software
+  ServiceName: Ivalua Source-to-Pay Platform
+  PublisherName: Ivalua
+  Region: Global (Multi-region SaaS)
+costDimensions:
+  - name: Platform Subscription
+    description: >-
+      Annual or multi-year enterprise subscription fee covering licensed
+      modules and user access. Starting at approximately USD 150,000/year
+      and scaled by organization size, user count, spend volume, and
+      module selection.
+    unit: per-year
+    currency: USD
+    estimatedRange:
+      min: 150000
+      max: 2000000
+      notes: >-
+        Upper range reflects large enterprise deployments with full
+        source-to-pay module suite. Negotiate multi-year agreements
+        to minimize annual price escalation (typically 3-5%).
+  - name: Implementation Services
+    description: >-
+      Professional services for initial platform deployment, ERP integration
+      configuration, and business process mapping. Typically a one-time
+      cost billed separately from the subscription.
+    unit: per-project
+    currency: USD
+    estimatedRange:
+      min: 50000
+      max: 500000
+      notes: >-
+        Varies significantly based on complexity of ERP integrations,
+        number of systems connected, and degree of custom configuration.
+  - name: Integration Add-Ons
+    description: >-
+      Additional connectors or third-party integrations from the 200+
+      available add-on catalog (connectors, workflows, AI agents, compliance
+      tools) may carry incremental licensing fees depending on partner
+      agreements.
+    unit: per-add-on
+    notes: >-
+      Some add-ons are bundled; others (e.g., EcoVadis, Dun & Bradstreet
+      risk data) require separate data provider agreements.
+  - name: API Integration Usage
+    description: >-
+      REST API and EAI integration capacity is bundled within the enterprise
+      subscription. There are no separately metered API call fees; however,
+      high-volume integration needs may require higher-tier infrastructure
+      allocation negotiated at contract time.
+    unit: included
+    notes: >-
+      API throughput and concurrent integration limits are governed by
+      subscription tier and tenant deployment configuration.
+optimization:
+  - name: Module Right-Sizing
+    description: >-
+      Audit which Ivalua modules are actively used versus licensed. Unused
+      modules (e.g., Expense Management, Inventory Collaboration) represent
+      opportunity for scope reduction at contract renewal.
+  - name: Multi-Year Commitment Discounts
+    description: >-
+      Negotiate 3-5 year agreements to lock in lower per-year rates and
+      reduce annual escalation exposure. Early renewal negotiations can
+      yield additional discounts.
+  - name: Supplier Onboarding ROI Tracking
+    description: >-
+      Ivalua's platform claims 90%+ supplier enablement and 80% faster
+      onboarding. Quantify savings from supplier portal adoption to
+      demonstrate ROI and justify subscription investment.
+  - name: Integration Consolidation
+    description: >-
+      Leverage Ivalua's pre-built ERP connectors and Integration Hub to
+      eliminate third-party middleware costs. Consolidating integrations
+      onto the native EAI module reduces external tooling spend.
+  - name: Procurement Spend Analytics
+    description: >-
+      Use Ivalua's built-in spend analytics to identify savings opportunities
+      across categories, improving procurement ROI and building a business
+      case for platform cost justification.

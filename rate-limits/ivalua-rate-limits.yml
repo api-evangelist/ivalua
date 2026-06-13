@@ -1,0 +1,63 @@
+name: Ivalua API Rate Limits
+description: >-
+  Ivalua does not publish specific API rate limit figures publicly, as the
+  platform is delivered as a fully managed enterprise SaaS with per-tenant
+  capacity governed by subscription terms and infrastructure allocation.
+  Rate limiting behavior is enforced at the tenant level within Ivalua's
+  cloud infrastructure. Integration throughput is managed via the Integration
+  Management Center and Integration Console, which provides transaction
+  logging, monitoring, and payload inspection. Customers should contact
+  Ivalua directly to understand rate limit policies applicable to their
+  specific deployment and subscription tier.
+specificationVersion: '0.1'
+url: https://www.ivalua.com/technology/ivalua-open-ecosystem/
+limits:
+  - name: API Request Rate
+    description: >-
+      Request rate limits are enforced per tenant based on subscription
+      capacity allocation. Specific numeric limits are not publicly documented
+      and are governed by enterprise contract terms. Ivalua's Integration
+      Console logs all API requests and responses for monitoring purposes.
+    type: requests
+    period: per-minute
+    limit: not-publicly-disclosed
+    notes: >-
+      Contact Ivalua support for rate limit details applicable to your
+      tenant. The Integration Management Center provides visibility into
+      integration activity and can alert on throughput thresholds.
+  - name: Concurrent Integrations
+    description: >-
+      The number of concurrent integration flows supported is governed by
+      tenant infrastructure allocation. Ivalua's EAI module supports
+      orchestration across 60+ ERP and enterprise systems simultaneously.
+    type: concurrent-connections
+    limit: not-publicly-disclosed
+    notes: >-
+      Governed by subscription terms and tenant deployment configuration.
+  - name: Data Transfer
+    description: >-
+      Bulk data transfers via ETL tools within the EAI module are subject
+      to tenant capacity limits. Raw interface requests and response data
+      are logged and downloadable via the Integration Console.
+    type: data-transfer
+    period: per-transaction
+    limit: not-publicly-disclosed
+    notes: >-
+      ETL and API batch operations are subject to platform capacity
+      configured at deployment time.
+authentication:
+  - type: SAML
+    description: >-
+      Single Sign-On (SSO) via SAML for buyer and supplier portal access.
+      User login, status, and profile information can be synchronized
+      periodically via ETL or SAML assertion.
+  - type: TOTP
+    description: >-
+      Time-based One-time Password (TOTP) two-factor authentication can
+      be enabled as required for suppliers or buyers.
+  - type: API-Key
+    description: >-
+      API access for programmatic integration is authenticated via
+      API keys or service account credentials configured within the
+      Integration Workplace. Specific OAuth flows are not publicly
+      documented.

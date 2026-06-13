@@ -1,0 +1,45 @@
+name: Ivalua Plans and Pricing
+description: >-
+  Ivalua offers enterprise procurement software with custom pricing tailored to
+  organization size, spend volume, modules required, and contract terms.
+  Ivalua does not publish standard tier pricing publicly; all plans are
+  negotiated directly and are typically structured as annual or multi-year
+  enterprise subscriptions starting at approximately USD 150,000 per year.
+  There is no free trial or free version available.
+specificationVersion: '0.1'
+url: https://www.saasworthy.com/product/ivalua-procurement-solution/pricing
+plans:
+  - name: Enterprise Custom
+    description: >-
+      Fully customized enterprise subscription covering the full source-to-pay
+      platform or selected modules. Pricing is based on organization size,
+      number of users, procurement spend volume, and specific module selection
+      (e.g., Supplier Management, Sourcing, Contract Management, Procure-to-Pay,
+      AP Automation, Spend Analytics). Implementation and integration fees are
+      applied separately. Multi-year agreements typically include annual
+      escalation of 3-5%.
+    type: enterprise
+    pricing:
+      model: custom
+      currency: USD
+      startingAt: 150000
+      period: year
+      notes: >-
+        Pricing negotiated directly with Ivalua sales. No public tiers or
+        self-serve sign-up. Contact Ivalua for a tailored quote.
+    features:
+      - Full Source-to-Pay platform access
+      - Supplier Management and onboarding portal
+      - Sourcing and contract lifecycle management
+      - eProcurement and purchase order management
+      - AP Automation and invoice processing
+      - Spend Analytics and reporting
+      - REST API and EAI integration access
+      - 60+ ERP pre-built connectors
+      - 200+ add-ons (connectors, workflows, AI agents)
+      - IVA Agentic Operating System for Procurement
+      - No-code Design Mode configuration
+      - Integration Management Center monitoring
+      - Implementation and support services
+    free: false
+    trial: false

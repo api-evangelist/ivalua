@@ -1,0 +1,86 @@
+name: Ivalua
+description: >-
+  Ivalua is an enterprise AI-powered procurement platform offering a unified
+  source-to-pay solution that enables organizations to manage all categories of
+  spend and suppliers. The platform exposes a REST API built on open standards,
+  supporting JSON and XML data formats via secure web services, enabling
+  programmatic integration for supplier onboarding, contract lifecycle
+  management, sourcing events, purchase orders, invoice automation, and spend
+  analytics. Ivalua's Enterprise Application Interface (EAI) module combines
+  APIs, ETL, and query tools to orchestrate data transfer between Ivalua and
+  external enterprise systems including SAP, Oracle, and Microsoft Dynamics.
+  The Integration Hub supports 60+ ERP and enterprise system connectors,
+  providing developer tooling to build and discover APIs without requiring
+  middleware. Authentication leverages SAML-based SSO and two-factor
+  authentication, with raw interface request/response logging available through
+  the Integration Console for audit and debugging purposes.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/ivalua/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Procurement
+  - Source-to-Pay
+  - Supplier Management
+  - Contract Management
+  - Sourcing
+  - Purchase Orders
+  - Invoices
+  - Spend Analytics
+  - ERP Integration
+  - Enterprise
+apis:
+  - name: Ivalua Procurement REST API
+    description: >-
+      The Ivalua REST API provides programmatic access to the full source-to-pay
+      procurement lifecycle, including supplier registration and onboarding,
+      contract creation and management, sourcing event orchestration, purchase
+      requisitions and orders, invoice processing and AP automation, and
+      procurement spend analytics. Built on a Service Oriented Architecture
+      using open standard protocols, the API enables integration with ERP
+      systems and third-party services via JSON and XML data exchange over
+      secure HTTPS connections.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.ivalua.com/technology/ivalua-open-ecosystem/
+    baseURL: https://api.ivalua.com
+    tags:
+      - Procurement
+      - Supplier Management
+      - Contracts
+      - Purchase Orders
+      - Invoices
+      - Sourcing
+      - Spend Analytics
+    properties:
+      - type: Documentation
+        url: https://www.ivalua.com/technology/ivalua-open-ecosystem/
+      - type: Website
+        url: https://www.ivalua.com/
+common:
+  - type: Website
+    url: https://www.ivalua.com/
+  - type: Documentation
+    url: https://www.ivalua.com/technology/ivalua-open-ecosystem/
+  - type: GitHubOrg
+    url: https://github.com/Ivalua
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ivalua
+  - type: Blog
+    url: https://www.ivalua.com/blog/
+  - type: Pricing
+    url: https://www.saasworthy.com/product/ivalua-procurement-solution/pricing
+  - type: StatusPage
+    url: https://www.ivalua.com/
+  - type: X
+    url: https://twitter.com/ivalua
+  - type: Plans
+    url: plans/ivalua-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/ivalua-rate-limits.yml
+  - type: FinOps
+    url: finops/ivalua-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

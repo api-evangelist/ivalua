@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "ivalua": "https://www.ivalua.com/vocabulary/",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "provider": {
+      "@id": "schema:provider",
+      "@type": "schema:Organization"
+    },
+    "Organization": "schema:Organization",
+    "WebAPI": "schema:WebAPI",
+    "SoftwareApplication": "schema:SoftwareApplication",
+    "Procurement": "ivalua:Procurement",
+    "SupplierManagement": "ivalua:SupplierManagement",
+    "ContractManagement": "ivalua:ContractManagement",
+    "Sourcing": "ivalua:Sourcing",
+    "PurchaseOrder": "ivalua:PurchaseOrder",
+    "Invoice": "ivalua:Invoice",
+    "SpendAnalytics": "ivalua:SpendAnalytics",
+    "ERPIntegration": "ivalua:ERPIntegration",
+    "SupplierOnboarding": "ivalua:SupplierOnboarding",
+    "IntegrationHub": "ivalua:IntegrationHub",
+    "EAIModule": "ivalua:EAIModule",
+    "sourceToPay": {
+      "@id": "ivalua:sourceToPay",
+      "@type": "schema:Text"
+    },
+    "baseURL": {
+      "@id": "schema:url",
+      "@type": "schema:URL"
+    },
+    "documentation": {
+      "@id": "schema:documentation",
+      "@type": "schema:URL"
+    },
+    "tags": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    }
+  },
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.ivalua.com/",
+      "name": "Ivalua",
+      "description": "Ivalua is an enterprise AI-powered procurement platform offering a unified source-to-pay solution.",
+      "url": "https://www.ivalua.com/"
+    },
+    {
+      "@type": "WebAPI",
+      "@id": "https://api.ivalua.com/",
+      "name": "Ivalua Procurement REST API",
+      "description": "The Ivalua REST API provides programmatic access to the full source-to-pay procurement lifecycle, including supplier registration, contract management, sourcing events, purchase orders, invoice processing, and spend analytics.",
+      "url": "https://www.ivalua.com/technology/ivalua-open-ecosystem/",
+      "provider": {
+        "@id": "https://www.ivalua.com/"
+      },
+      "tags": [
+        "Procurement",
+        "Supplier Management",
+        "Contracts",
+        "Purchase Orders",
+        "Invoices",
+        "Sourcing",
+        "Spend Analytics"
+      ]
+    }
+  ]
+}

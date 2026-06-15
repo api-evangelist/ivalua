@@ -13,7 +13,7 @@
       "description": "Addresses how businesses can meet quality demands through effective supplier performance management."
     },
     {
-      "title": "The 2026 Gartner® Source-to-Pay Magic Quadrant™: Why Ivalua is a Market Leader Rising in Execution",
+      "title": "The 2026 Gartner\u00ae Source-to-Pay Magic Quadrant\u2122: Why Ivalua is a Market Leader Rising in Execution",
       "url": "https://www.ivalua.com/blog/2026-gartner-source-to-pay-magic-quadrant-summary/",
       "author": "Katie Berlekamp",
       "read_time": "5 mins",
@@ -54,5 +54,17 @@
       "read_time": "10 mins",
       "description": "Discusses environmentally responsible procurement approaches."
     }
-  ]
+  ],
+  "repo": "ivalua",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/ivalua",
+      "feed_url": "https://www.linkedin.com/company/ivalua",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }

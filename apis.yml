@@ -15,7 +15,7 @@ description: >-
   authentication, with raw interface request/response logging available through
   the Integration Console for audit and debugging purposes.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/ivalua/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -42,7 +42,7 @@ apis:
       using open standard protocols, the API enables integration with ERP
       systems and third-party services via JSON and XML data exchange over
       secure HTTPS connections.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.ivalua.com/technology/ivalua-open-ecosystem/
     baseURL: https://api.ivalua.com
     tags:

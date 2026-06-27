@@ -1,62 +1,13 @@
 {
-  "meta": {
-    "source": "https://www.ivalua.com/blog/",
-    "fetched": "2026-06-13",
-    "provider": "ivalua"
-  },
-  "posts": [
-    {
-      "title": "Ultimate Guide to Supplier Performance Management (SPM) [2026]",
-      "url": "https://www.ivalua.com/blog/supplier-performance-management/",
-      "author": "Jarrod McAdoo",
-      "read_time": "9 mins",
-      "description": "Addresses how businesses can meet quality demands through effective supplier performance management."
-    },
-    {
-      "title": "The 2026 Gartner\u00ae Source-to-Pay Magic Quadrant\u2122: Why Ivalua is a Market Leader Rising in Execution",
-      "url": "https://www.ivalua.com/blog/2026-gartner-source-to-pay-magic-quadrant-summary/",
-      "author": "Katie Berlekamp",
-      "read_time": "5 mins",
-      "description": "For the third consecutive year, Ivalua has strengthened its position in the Gartner Source-to-Pay Magic Quadrant."
-    },
-    {
-      "title": "AI Agents in Procurement: The Ultimate Guide",
-      "url": "https://www.ivalua.com/blog/ai-agents-in-procurement/",
-      "author": "Vishal Patel",
-      "read_time": "10 mins",
-      "description": "Explores how AI reshapes sourcing, buying, and transaction management processes."
-    },
-    {
-      "title": "AI Supplier Management: Use Cases & Examples",
-      "url": "https://www.ivalua.com/blog/ai-supplier-management/",
-      "author": "Jarrod McAdoo",
-      "read_time": "9 mins",
-      "description": "Examines data-intensive supplier management optimization through artificial intelligence."
-    },
-    {
-      "title": "What is Strategic Sourcing & Why is it Important?",
-      "url": "https://www.ivalua.com/blog/what-is-strategic-sourcing-why-is-it-important/",
-      "author": "Doug Keeley",
-      "read_time": "4 mins",
-      "description": "Defines strategic sourcing and its significance in procurement operations."
-    },
-    {
-      "title": "E-Invoicing: Global Mandates for Transparency & Tax Compliance",
-      "url": "https://www.ivalua.com/blog/e-invoicing-compliance/",
-      "author": "Stephen Carter",
-      "read_time": "7 mins",
-      "description": "Covers electronic invoicing's role in regulatory compliance and business operations."
-    },
-    {
-      "title": "Sustainable Procurement: Sourcing Strategies for a Greener Future",
-      "url": "https://www.ivalua.com/blog/sustainable-procurement-sourcing-strategies-for-a-greener-future/",
-      "author": "Jarrod McAdoo",
-      "read_time": "10 mins",
-      "description": "Discusses environmentally responsible procurement approaches."
-    }
-  ],
   "repo": "ivalua",
   "feeds": [
+    {
+      "source": "https://www.ivalua.com/feed/",
+      "feed_url": "https://www.ivalua.com/feed/",
+      "title": "",
+      "saved": 2,
+      "method": "feed"
+    },
     {
       "source": "https://www.linkedin.com/company/ivalua",
       "feed_url": "https://www.linkedin.com/company/ivalua",
@@ -65,6 +16,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 4
 }

@@ -59,6 +59,10 @@ apis:
       - type: Website
         url: https://www.ivalua.com/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/ivalua-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/ivalua-domain-security.yml
   - type: Website
     url: https://www.ivalua.com/
   - type: Documentation

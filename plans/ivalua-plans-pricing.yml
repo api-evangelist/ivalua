@@ -47,3 +47,16 @@ plans:
       - Implementation and support services
     free: false
     trial: false
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  units: []
+  plans:
+  - name: Enterprise Custom
+    access: enterprise
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []

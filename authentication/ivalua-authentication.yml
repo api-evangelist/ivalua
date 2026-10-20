@@ -1,0 +1,23 @@
+name: Ivalua authentication
+generated: '2026-10-20'
+method: probed
+source: https://portal.ivalua.com/.well-known/oauth-authorization-server
+schemes:
+  - type: oauth2
+    name: Ivalua portal OAuth 2.0
+    applies_to: https://portal.ivalua.com/mcp
+    issuer: https://portal.ivalua.com
+    authorization_url: https://portal.ivalua.com/oauth2/authorize
+    token_url: https://portal.ivalua.com/oauth2/token
+    revocation_url: https://portal.ivalua.com/oauth2/revoke
+    registration_url: https://portal.ivalua.com/oauth2/register
+    grant_types: [client_credentials, authorization_code]
+    token_endpoint_auth_methods: [client_secret_post, none]
+    pkce: [S256]
+    resource_indicators_supported: true
+    client_id_metadata_document_supported: true
+    bearer_methods: [header]
+note: >-
+  Read from the anonymous authorization-server and protected-resource metadata on
+  portal.ivalua.com. Ivalua's broader REST/EAI APIs are documented only to customers;
+  their auth scheme is not publicly stated.

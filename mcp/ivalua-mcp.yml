@@ -1,0 +1,26 @@
+name: Ivalua MCP Server (portal.ivalua.com)
+generated: '2026-10-20'
+method: probed
+source: https://portal.ivalua.com/.well-known/oauth-protected-resource
+status: gated
+description: >-
+  Ivalua's portal host publishes an OAuth 2.0 Protected Resource Metadata document
+  (RFC 9728) naming https://portal.ivalua.com/mcp as the protected resource, with
+  https://portal.ivalua.com/oauth2 as its authorization server. An anonymous MCP
+  tools/list POST to that endpoint returned HTTP 302 to
+  https://portal.ivalua.com/Account/Login?ReturnUrl=%2Fmcp, so the tool list is not
+  publicly readable. No public documentation of the tools was found; no tool names are recorded.
+deployment:
+  mode: remote
+  endpoint: https://portal.ivalua.com/mcp
+  auth: oauth
+  verified: probed
+evidence:
+  - url: https://portal.ivalua.com/.well-known/oauth-protected-resource
+    status: 200
+  - url: https://portal.ivalua.com/.well-known/oauth-authorization-server
+    status: 200
+  - url: https://portal.ivalua.com/mcp
+    status: 302
+    note: anonymous POST tools/list redirected to the portal login page
+tools: []

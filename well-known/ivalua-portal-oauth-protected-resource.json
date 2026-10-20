@@ -1,0 +1,12 @@
+{
+  "resource": "https://portal.ivalua.com/mcp",
+  "authorization_servers": [
+    "https://portal.ivalua.com/oauth2"
+  ],
+  "bearer_methods_supported": [
+    "header"
+  ],
+  "scopes_supported": [
+    "offline_access"
+  ]
+}

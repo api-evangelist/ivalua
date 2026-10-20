@@ -1,0 +1,173 @@
+generated: '2026-10-20'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 14
+  own: 9
+  other_domain: 2
+  platform: 3
+  roles:
+  - api
+  - marketing
+  - other
+  - portal
+  - website
+hosts:
+- host: api.ivalua.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: ivalua.com
+  role: api
+  relation: own
+- host: api.saasworthy.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: saasworthy.com
+  role: api
+  relation: other-domain
+- host: de.ivalua.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: ivalua.com
+  role: other
+  relation: own
+- host: es.ivalua.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: ivalua.com
+  role: other
+  relation: own
+- host: fr.ivalua.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: ivalua.com
+  role: other
+  relation: own
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrg
+  serves: []
+  registrable_domain: github.com
+  role: other
+  relation: platform
+- host: info.ivalua.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: ivalua.com
+  role: other
+  relation: own
+- host: it.ivalua.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: ivalua.com
+  role: other
+  relation: own
+- host: portal.ivalua.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - site-links
+  - docs-index
+  - well-known
+  types:
+  - DeveloperPortal
+  serves:
+  - api
+  - docs
+  registrable_domain: ivalua.com
+  role: portal
+  relation: own
+- host: trust.ivalua.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  types:
+  - Compliance
+  - TrustCenter
+  serves: []
+  registrable_domain: ivalua.com
+  role: other
+  relation: own
+- host: twitter.com
+  found_by:
+  - pointer
+  types:
+  - X
+  serves: []
+  registrable_domain: twitter.com
+  role: other
+  relation: platform
+- host: www.ivalua.com
+  found_by:
+  - pointer
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Newsroom
+  - Leadership
+  - Website
+  - Documentation
+  - Blog
+  - PrivacyPolicy
+  - TermsOfService
+  serves:
+  - docs
+  - cdn
+  vendor: cloudflare
+  registrable_domain: ivalua.com
+  role: website
+  relation: own
+- host: www.linkedin.com
+  found_by:
+  - pointer
+  types:
+  - LinkedIn
+  serves: []
+  registrable_domain: linkedin.com
+  role: other
+  relation: platform
+- host: www.saasworthy.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Pricing
+  serves: []
+  registrable_domain: saasworthy.com
+  role: marketing
+  relation: other-domain

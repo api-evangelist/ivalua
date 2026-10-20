@@ -1,0 +1,7 @@
+name: Ivalua OAuth scopes
+generated: '2026-10-20'
+method: probed
+source: https://portal.ivalua.com/.well-known/oauth-authorization-server
+scopes:
+  - name: offline_access
+    description: Listed in scopes_supported by both the authorization-server and protected-resource metadata on portal.ivalua.com.

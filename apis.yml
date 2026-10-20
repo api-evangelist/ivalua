@@ -1,20 +1,16 @@
 name: Ivalua
-description: >-
-  Ivalua is an enterprise AI-powered procurement platform offering a unified
-  source-to-pay solution that enables organizations to manage all categories of
-  spend and suppliers. The platform exposes a REST API built on open standards,
-  supporting JSON and XML data formats via secure web services, enabling
-  programmatic integration for supplier onboarding, contract lifecycle
-  management, sourcing events, purchase orders, invoice automation, and spend
-  analytics. Ivalua's Enterprise Application Interface (EAI) module combines
-  APIs, ETL, and query tools to orchestrate data transfer between Ivalua and
-  external enterprise systems including SAP, Oracle, and Microsoft Dynamics.
-  The Integration Hub supports 60+ ERP and enterprise system connectors,
-  providing developer tooling to build and discover APIs without requiring
-  middleware. Authentication leverages SAML-based SSO and two-factor
-  authentication, with raw interface request/response logging available through
-  the Integration Console for audit and debugging purposes.
+
+description: Ivalua is an enterprise AI-powered procurement platform offering a unified source-to-pay solution that enables organizations to manage
+  all categories of spend and suppliers. The platform exposes a REST API built on open standards, supporting JSON and XML data formats via secure
+  web services, enabling programmatic integration for supplier onboarding, contract lifecycle management, sourcing events, purchase orders, invoice
+  automation, and spend analytics. Ivalua's Enterprise Application Interface (EAI) module combines APIs, ETL, and query tools to orchestrate data
+  transfer between Ivalua and external enterprise systems including SAP, Oracle, and Microsoft Dynamics. The Integration Hub supports 60+ ERP
+  and enterprise system connectors, providing developer tooling to build and discover APIs without requiring middleware. Authentication leverages
+  SAML-based SSO and two-factor authentication, with raw interface request/response logging available through the Integration Console for audit
+  and debugging purposes.
+
 type: Index
+
 deliveryModel:
   model: saas
   open_source: false
@@ -26,6 +22,7 @@ deliveryModel:
   - pricing
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: enterprise
   onboarding: unknown
@@ -35,53 +32,132 @@ accessModel:
   label: Enterprise (free trial)
   confidence: medium
   source:
-    - plans
+  - plans
   generated: '2026-07-22'
   method: derived
+
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ivalua.png
+
 url: https://raw.githubusercontent.com/api-evangelist/ivalua/refs/heads/main/apis.yml
+
 created: '2026-06-13'
-modified: '2026-07-25'
+
+modified: '2026-10-20'
+
 specificationVersion: '0.23'
+
 tags:
-  - Procurement
-  - Source-to-Pay
-  - Supplier Management
-  - Contract Management
-  - Sourcing
-  - Purchase Orders
-  - Invoices
-  - Spend Analytics
-  - ERP Integration
-  - Enterprise
-apis: []
-common:
-  - type: VulnerabilityDisclosure
-    url: security/ivalua-vulnerability-disclosure.yml
-  - type: DomainSecurity
-    url: security/ivalua-domain-security.yml
-  - type: Website
-    url: https://www.ivalua.com/
-  - type: Documentation
-    url: https://www.ivalua.com/technology/ivalua-open-ecosystem/
-  - type: GitHubOrg
-    url: https://github.com/Ivalua
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/ivalua
-  - type: Blog
-    url: https://www.ivalua.com/blog/
-  - type: Pricing
-    url: https://www.saasworthy.com/product/ivalua-procurement-solution/pricing
-  - type: StatusPage
-    url: https://www.ivalua.com/
-  - type: X
-    url: https://twitter.com/ivalua
-  - type: Plans
-    url: plans/ivalua-plans-pricing.yml
-  - type: RateLimits
-    url: rate-limits/ivalua-rate-limits.yml
-  - type: FinOps
-    url: finops/ivalua-finops.yml
+- Procurement
+- Source-to-Pay
+- Supplier Management
+- Contract Management
+- Sourcing
+- Purchase Orders
+- Invoices
+- Spend Analytics
+- ERP Integration
+- Enterprise
+
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
+
+common:
+- type: JSONLD
+  url: json-ld/ivalua-context.jsonld
+- type: Compliance
+  url: https://trust.ivalua.com/
+- type: TrustCenter
+  url: security/ivalua-trust-center.yml
+- type: Security
+  url: security/ivalua-vulnerability-disclosure.yml
+- type: Authentication
+  url: authentication/ivalua-authentication.yml
+- type: OAuthScopes
+  url: scopes/ivalua-scopes.yml
+- type: LLMsTxt
+  url: llms/ivalua-llms.txt
+- type: SecurityTxt
+  url: well-known/ivalua-security.txt
+- type: SecurityTxt
+  url: well-known/ivalua-it-security.txt
+- type: SecurityTxt
+  url: well-known/ivalua-fr-security.txt
+- type: SecurityTxt
+  url: well-known/ivalua-es-security.txt
+- type: SecurityTxt
+  url: well-known/ivalua-de-security.txt
+- type: WellKnown
+  url: well-known/ivalua-well-known.yml
+- type: Hosts
+  url: hosts/ivalua-hosts.yml
+- type: IntegrationEdges
+  url: integrations/ivalua-integration-edges.yml
+- type: Vendors
+  url: vendors/ivalua-vendors.yml
+- type: Newsroom
+  url: https://www.ivalua.com/company/newsroom/
+- type: Leadership
+  url: https://www.ivalua.com/company/leadership/
+- type: VulnerabilityDisclosure
+  url: security/ivalua-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/ivalua-domain-security.yml
+- type: Website
+  url: https://www.ivalua.com/
+- type: Documentation
+  url: https://www.ivalua.com/technology/ivalua-open-ecosystem/
+- type: GitHubOrg
+  url: https://github.com/Ivalua
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ivalua
+- type: Blog
+  url: https://www.ivalua.com/blog/
+- type: Pricing
+  url: https://www.saasworthy.com/product/ivalua-procurement-solution/pricing
+- type: X
+  url: https://twitter.com/ivalua
+- type: Plans
+  url: plans/ivalua-plans-pricing.yml
+- type: DeveloperPortal
+  url: https://portal.ivalua.com/
+- type: PrivacyPolicy
+  url: https://www.ivalua.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.ivalua.com/legal/
+- type: TrustCenter
+  url: https://trust.ivalua.com/
+- type: RateLimits
+  url: rate-limits/ivalua-rate-limits.yml
+- type: FinOps
+  url: finops/ivalua-finops.yml
+
+apis:
+- name: Ivalua MCP Server
+  description: Remote Model Context Protocol endpoint on Ivalua's portal host, advertised by an OAuth 2.0 Protected Resource Metadata document;
+    requires OAuth 2.0 authorization against portal.ivalua.com/oauth2 and redirects anonymous callers to the portal login.
+  humanURL: https://portal.ivalua.com/
+  baseURL: https://portal.ivalua.com/mcp
+  tags:
+  - MCP
+  - Procurement
+  properties:
+  - type: MCPServer
+    url: mcp/ivalua-mcp.yml
+  aid: ivalua:ivalua-mcp-server
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  method: derived
+  generated: '2026-10-20'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - url: https://www.ivalua.com/
+    status: 200
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v5

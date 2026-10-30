@@ -64,19 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ivalua is an enterprise AI-powered procurement platform offering a unified source-to-pay solution that enables organizations to manage all categories of spend and suppliers. The platform exposes a REST API built on open standards, supporting JSON and XML data formats via secure web services, enabling programmatic integration for supplier onboarding, contract lifecycle management, sourcing events, purchase orders, invoice automation, and spend analytics.
+Ivalua is an enterprise AI-powered procurement platform offering a unified source-to-pay solution that enables organizations to manage all categories of spend and suppliers. The platform exposes a REST API built on open standards, supporting JSON and XML data formats via secure web services, enabling programmatic integration for supplier onboarding, contract lifecycle management, sourcing events, purchase orders, invoice automation, and spend analytics. Ivalua's Enterprise Application Interface (EAI) module combines APIs, ETL, and query tools to orchestrate data transfer between Ivalua and external enterprise systems including SAP, Oracle, and Microsoft Dynamics. The Integration Hub supports 60+ ERP and enterprise system connectors, providing developer tooling to build and discover APIs without requiring middleware. Authentication leverages SAML-based SSO and two-factor authentication, with raw interface request/response logging available through the Integration Console for audit and debugging purposes.
 
-Ivalua's Enterprise Application Interface (EAI) module combines APIs, ETL, and query tools to orchestrate data transfer between Ivalua and external enterprise systems including SAP, Oracle, and Microsoft Dynamics. The Integration Hub supports 60+ ERP and enterprise system connectors, providing developer tooling to build and discover APIs without requiring middleware.
+**Areas:** Procurement · Source-to-Pay · Supplier Management · Contract Management · Sourcing · Purchase Orders · Invoices · Spend Analytics · ERP Integration · Enterprise
 
-**Links:**
+## Ivalua on APIs.io
+
+Everything profiled for Ivalua is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ivalua/](https://apis.io/providers/ivalua/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Ivalua MCP Server](https://apis.io/apis/ivalua/ivalua-mcp-server/) — Remote Model Context Protocol endpoint on Ivalua's portal host, advertised by an OAuth 2.0 Protected Resource Metadata document; requires OAuth 2.0…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ivalua Context](https://apis.io/jsonld/ivalua/ivalua-context/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ivalua Authentication](https://apis.io/security/ivalua/ivalua-authentication/)
+- [Ivalua Domain Security](https://apis.io/security/ivalua/ivalua-domain-security/)
+- [Ivalua Trust Center](https://apis.io/security/ivalua/ivalua-trust-center/)
+- [Ivalua Vulnerability Disclosure](https://apis.io/security/ivalua/ivalua-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Ivalua Scopes](https://apis.io/scopes/ivalua/ivalua-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ivalua Plans Pricing](https://apis.io/plans/ivalua/ivalua-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ivalua Rate Limits](https://apis.io/rate-limits/ivalua/ivalua-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Ivalua Finops](https://apis.io/finops/ivalua/ivalua-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.ivalua.com/)
-- [Open Ecosystem / API Documentation](https://www.ivalua.com/technology/ivalua-open-ecosystem/)
-- [Multi-ERP Integration](https://www.ivalua.com/solutions/business/multi-erp-integration/)
-- [Blog](https://www.ivalua.com/blog/)
-- [LinkedIn](https://www.linkedin.com/company/ivalua)
-- [X / Twitter](https://twitter.com/ivalua)
-- [GitHub Org](https://github.com/Ivalua)
+- [Documentation](https://www.ivalua.com/technology/ivalua-open-ecosystem/)
 - [Pricing](https://www.saasworthy.com/product/ivalua-procurement-solution/pricing)
+- [Blog](https://www.ivalua.com/blog/)
+- [Compliance](https://trust.ivalua.com/)
+- [Trust centre](https://trust.ivalua.com/)
+- [Terms of service](https://www.ivalua.com/legal/)
+- [Privacy policy](https://www.ivalua.com/privacy-policy/)
 
-**Maintained by:** [Kin Lane](mailto:kin@apievangelist.com)
+## API Evangelist rating
+
+**Kin Score 34.3** — thin · rubric 0.24.0 · scored 2026-10-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 68.3 |
+| Contract quality | 10.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 52.6 |
+
+**Agent readiness 22.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 45.1** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ivalua/](https://apis.io/providers/ivalua/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ivalua: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ivalua/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
